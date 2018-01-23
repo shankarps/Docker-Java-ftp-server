@@ -1,0 +1,2 @@
+Hello World. This is a text file in the FTP server. When Docker starts, it will move this file to the user's home folder. 
+i.e., <Apache Fileserver>/res/home.
