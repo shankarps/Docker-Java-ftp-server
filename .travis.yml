@@ -1,4 +1,3 @@
-dist: trusty
 sudo: required
 
 services:
@@ -7,4 +6,3 @@ services:
 install:
   # Build image (this is a basic test)
   - docker build -t shankarps/java-ftp-server .
-  #Todo add more test cases
