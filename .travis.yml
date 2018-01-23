@@ -8,4 +8,6 @@ script:
   # Build image
   - docker build -t shankarps/java-ftp-server .
   # Test 
-  - docker run --name testadmin -p 21:21 shankarps/java-ftp-server
+  - docker run --name ftp -p 21:21 shankarps/java-ftp-server
+script:
+  - docker ps | grep -q ftp
