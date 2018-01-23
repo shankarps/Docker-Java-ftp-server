@@ -8,4 +8,3 @@ The default credential is admin/admin. [TODO] Make the credentials configurable.
 
 ## References
 For more detailed documentation about Apache FtpServer see https://mina.apache.org/ftpserver-project/documentation.html
-
