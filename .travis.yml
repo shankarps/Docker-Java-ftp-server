@@ -1,0 +1,12 @@
+dist: trusty
+
+sudo: required
+
+services:
+  - docker
+
+script:
+  # Build image
+  - docker build -t shankarps/java-ftp-server .
+  # Test 
+  - docker run --name testadmin -p 21:21 shankarps/java-ftp-server
