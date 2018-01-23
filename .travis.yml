@@ -3,6 +3,6 @@ sudo: required
 services:
   - docker
 
-install:
+script:
   # Build image (this is a basic test)
   - docker build -t shankarps/java-ftp-server .
